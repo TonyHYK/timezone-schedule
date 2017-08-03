@@ -1,0 +1,41 @@
+{
+  "name": "spa-github-pages",
+  "version": "5.0.0",
+  "private": true,
+  "description": "Single Page Apps for GitHub Pages",
+  "scripts": {
+    "start": "webpack-dev-server --watch-poll",
+    "build": "webpack"
+  },
+  "author": "Tony Hung",
+  "license": "MIT",
+  "dependencies": {
+    "d3": "^4.10.0",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.5.10",
+    "query-string": "^5.0.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "topojson": "^3.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.4",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}

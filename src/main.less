@@ -1,0 +1,55 @@
+/*
+ * bootstrap files customized and compiled from
+ * http://getbootstrap.com/customize/?id=c54d1d4c1770f95019de65a96e8efc19
+ */
+@import "./bootstrap/bootstrap.min.css";
+@import "./bootstrap/bootstrap-theme.min.css";
+
+body {
+    background-color: #333333;
+}
+
+h1 {
+    text-align: center;
+}
+
+.selectedTz {
+    opacity: 0.7 !important;
+}
+
+.tzLabel {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 30px;
+
+    > div {
+        vertical-align: top;
+        display: inline-block;
+        margin: 0 5px;
+    }
+}
+
+.pContainer {
+
+    > div {
+        display: inline-block;
+        height: 35px;
+        width: 110px;
+        text-align: center;
+        line-height: 35px;
+        transition: 0.3s all linear;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    .selectedP {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+}
