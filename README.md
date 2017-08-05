@@ -8,3 +8,4 @@ Doesn't handle DST
 ## Improvements
 Better handling for timezone
 Better state handling with stores via Redux
+Make this mobile friendly
