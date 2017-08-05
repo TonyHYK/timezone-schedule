@@ -1,6 +1,7 @@
 # Schedule meetings across different time zones
 Written with React and d3
-timezone.tonyhyk.com
+
+[timezone.tonyhyk.com](timezone.tonyhyk.com)
 
 ## Known Issues
 Doesn't handle DST
