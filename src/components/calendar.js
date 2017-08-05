@@ -118,6 +118,7 @@ class Calendar extends Component {
 				.attr("id", (d, i) => `block${day*BLOCK_PER_DAY+i}`)
 				.style("stroke", "white")
 				.style("stroke-width", 1)
+				.style("cursor", "pointer")
 				.on("click", click)
 				.on("mouseover", mouseover)
 				.call(d3.drag()

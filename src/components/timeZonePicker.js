@@ -66,7 +66,7 @@ class TimeZonePicker extends Component {
 	}
 
 	render() {
-		return <svg width={500} height={300}>
+		return <svg width={500} height={350}>
 			<g ref={node => this.node = node} />
 		</svg>
 	}

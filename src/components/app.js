@@ -3,6 +3,7 @@ import TimeZonePicker from './timeZonePicker';
 import PersonPicker from './personPicker';
 import Calendar from './calendar';
 import qs from 'query-string';
+import Description from './description';
 
 let NUM_PEOPLE = 4;
 
@@ -59,6 +60,7 @@ class TimeZone extends Component {
                     <div>
                         <Calendar {...this.state} updateTimeblock={this.updateTimeblock} />
                     </div>
+                    <Description />
                 </div>
             </div>
         );
@@ -131,5 +133,3 @@ class TimeZone extends Component {
 let getUTCDate = (d) => new Date(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate(),  d.getUTCHours(), d.getUTCMinutes(), d.getUTCSeconds())
 
 export default TimeZone;
-// http://techslides.com/time-zone-world-map-with-d3-and-topojson
-// https://bost.ocks.org/mike/map/
